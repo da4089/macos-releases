@@ -1,13 +1,16 @@
 from setuptools import setup
+
+VERSION = '2.0'
+
 setup(
     name = 'macos-releases',
-    version = '1.0',
+    version = VERSION,
     license='MIT',
     description = 'Get the name and version of macOS releases',
     author = 'XIMet',
     author_email = 'dq.ximet@gmail.com',
     url = 'https://github.com/ximet/macos-releases',
-    download_url = 'https://github.com/ximet/macos-releases/archive/v1.0.tar.gz',
+    download_url = f'https://github.com/ximet/macos-releases/archive/v{VERSION}.tar.gz',
     keywords = ['MACOS', 'VERSION', 'DARWIN'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
