@@ -69,7 +69,7 @@ _BUILDS = [
     OS("Mac OS X", "Bunsen",  "10.0 DP3", "???", "1.0"),
     OS("Mac OS X", "Gonzo",   "10.0 DP4", "???", "1.1"),
     OS("Mac OS X", "Cheetah", "10.0 Beta", "1H39", "1.2.1"),
-    OS("Mac OS X", "Cheetah", "10.0 Beta", "2E14", "1.2.1"(,
+    OS("Mac OS X", "Cheetah", "10.0 Beta", "2E14", "1.2.1"),
 
     # Cheetah
     OS("Mac OS X", "Cheetah", "10.0",   "4K78", "1.3"),  # RTM
